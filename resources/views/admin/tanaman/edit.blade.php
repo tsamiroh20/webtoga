@@ -1,7 +1,7 @@
 @extends('layouts.dashboard-admin')
 
 @section('contents')
-<section id="hero" class="d-flex align-items-center" style="min-height: 100vh; margin-bottom: 0px; padding: 50px; position: relative; background: url('{{ asset('assets/img/bg.jpeg') }}') center center/cover no-repeat; background-size: cover;">
+<section id="hero" class="d-flex align-items-center" style="min-height: 100vh; margin-bottom: 0px; margin-top: 30px; position: relative; background: url('{{ asset('assets/img/bg.jpeg') }}') center center/cover no-repeat; background-size: cover;">
     <div class="overlay" style="background-color: rgba(157, 200, 148, 0.8); position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;"></div>
     <div class="container" style="position: relative; z-index: 2;">
         <div class="d-flex justify-content-center align-items-center w-100">

@@ -84,7 +84,7 @@
                                             <li>
                                                 {{ $referensiItem }}
                                                 @if(!empty($pustakaLink) && $pustakaLink !== '#')
-                                                    - <a href="{{ $pustakaLink }}" target="_blank" style="display: inline-block; max-width: 500px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; text-decoration: none; vertical-align: middle;" title="{{ $pustakaLink }}">{{ $pustakaLink }}</a>
+                                                    - <a href="{{ $pustakaLink }}" target="_blank" style="display: inline-block; max-width: 250px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; text-decoration: none; vertical-align: middle;" title="{{ $pustakaLink }}">{{ $pustakaLink }}</a>
                                                 @endif
                                             </li>
                                         @endforeach

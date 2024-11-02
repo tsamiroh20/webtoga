@@ -2,7 +2,7 @@
 
 @section('contents')
 <body style="margin: 0; padding: 0; font-family: Poppins, sans-serif; background-color: #f0f0f0;">
-    <section id="hero" class="hero d-flex align-items-center" style="min-height: 100vh; padding: 80px; position: relative; background: url('{{ asset('assets/img/bg.jpeg') }}') center center/cover no-repeat;">
+    <section id="hero" class="hero d-flex align-items-center" style="min-height: 100vh; padding: 20px; position: relative; background: url('{{ asset('assets/img/bg.jpeg') }}') center center/cover no-repeat;">
         <div class="overlay" style="background-color: rgba(157, 200, 148, 0.8); position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;"></div>
         <div class="container" style="position: relative; z-index: 2; max-width: 800px; margin: 0 auto;">
 

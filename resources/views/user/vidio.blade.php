@@ -35,7 +35,7 @@
 
                                     <!-- Modal untuk menampilkan video -->
                                     <div class="modal fade" id="videoModal{{ $video->id }}" tabindex="-1" aria-labelledby="videoModalLabel{{ $video->id }}" aria-hidden="true" data-bs-backdrop="false">
-                                        <div class="modal-dialog modal-lg" style="max-width: 60%; margin-top: 80px; z-index: 1060; display: flex; justify-content: center; align-items: center;">
+                                        <div class="modal-dialog modal-lg" style="width: 100%; max-width: 80vw; margin: auto; margin-top: 100px; z-index: 1060; display: flex; justify-content: center; align-items: center;">
                                             <div class="modal-content" style="position: relative; z-index: 1070;">
                                                 <div class="modal-header">
                                                     <h5 class="modal-title" id="videoModalLabel{{ $video->id }}">{{ $tanaman->nama_latin }} - Video</h5>
